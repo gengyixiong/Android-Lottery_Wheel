@@ -24,7 +24,6 @@ public class MainActivity extends ActionBarActivity {
 
     private ImageView lightImageView;
     private ImageView pointImageView;
-    private ImageView wheelImageView;
 
     private int[] laps = {15, 17, 20, 25};
     private int[] angles = {0, 60, 120, 180, 240, 300}; //six options, 60 degree
@@ -76,7 +75,6 @@ public class MainActivity extends ActionBarActivity {
 
         lightImageView = (ImageView)findViewById(R.id.light);
         pointImageView = (ImageView)findViewById(R.id.point);
-        wheelImageView = (ImageView)findViewById(R.id.main_wheel);
 
         flashLights();
         pointImageView.setOnClickListener(new View.OnClickListener() {
